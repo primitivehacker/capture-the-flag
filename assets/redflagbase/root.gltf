@@ -1,0 +1,2875 @@
+{
+  "asset": {
+    "generator": "Amazon Sumerian",
+    "version": "2.0"
+  },
+  "cameras": [
+    {
+      "name": "Default Camera",
+      "type": "perspective",
+      "perspective": {
+        "aspectRatio": 1,
+        "yfov": 0.7853981633974483,
+        "zfar": 1000,
+        "znear": 1
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Default Camera",
+      "camera": 0,
+      "rotation": [
+        -0.129007443687099,
+        -0.7101852914195609,
+        -0.1349712245496064,
+        0.6788053475542255
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "translation": [
+        -38.28906054362903,
+        16.067108857766193,
+        -1.7309290543575133
+      ]
+    },
+    {
+      "name": "Cone",
+      "mesh": 0,
+      "rotation": [
+        -0.707106781186548,
+        0,
+        0,
+        0.7071067811865471
+      ],
+      "scale": [
+        6,
+        6,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cylinder",
+      "mesh": 1,
+      "rotation": [
+        -0.7071067811865478,
+        0,
+        0,
+        0.7071067811865472
+      ],
+      "scale": [
+        0.30000001192092896,
+        0.30000001192092896,
+        10
+      ],
+      "translation": [
+        0,
+        5.7983598709106445,
+        0.032297518104314804
+      ]
+    },
+    {
+      "name": "Torus",
+      "mesh": 2,
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        10,
+        10,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Box",
+      "mesh": 3,
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.20000000298023224,
+        3,
+        4
+      ],
+      "translation": [
+        0,
+        9.152203559875488,
+        -2.0071070194244385
+      ]
+    },
+    {
+      "name": "Entity",
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Torus",
+      "mesh": 4,
+      "rotation": [
+        0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ],
+      "scale": [
+        10,
+        10,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Cylinder",
+      "mesh": 5,
+      "rotation": [
+        -0.7071067811865478,
+        0,
+        0,
+        0.7071067811865472
+      ],
+      "scale": [
+        0.30000001192092896,
+        0.30000001192092896,
+        10
+      ],
+      "translation": [
+        0,
+        5.7983598709106445,
+        0.032297518104314804
+      ]
+    },
+    {
+      "name": "Box",
+      "mesh": 6,
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.20000000298023224,
+        3,
+        4
+      ],
+      "translation": [
+        0,
+        9.152203559875488,
+        -2.0071070194244385
+      ]
+    },
+    {
+      "name": "Cone",
+      "mesh": 7,
+      "rotation": [
+        -0.707106781186548,
+        0,
+        0,
+        0.7071067811865471
+      ],
+      "scale": [
+        6,
+        6,
+        1
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2176,
+      "uri": "Cone-height1-radialSamples16-radius0_5.bin"
+    },
+    {
+      "byteLength": 2368,
+      "uri": "Cylinder-radialSamples16-radius0_5.bin"
+    },
+    {
+      "byteLength": 18336,
+      "uri": "Torus-centerRadius0_5-circleSamples32-radialSamples12-tubeRadius0.2.bin"
+    },
+    {
+      "byteLength": 804,
+      "uri": "Box-textureModeUniform.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 780,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 876,
+      "byteLength": 780,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1656,
+      "byteLength": 520,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 192,
+      "target": 34963
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 192,
+      "byteLength": 816,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1008,
+      "byteLength": 816,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1824,
+      "byteLength": 544,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 0,
+      "byteLength": 4608,
+      "target": 34963
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 4608,
+      "byteLength": 5148,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 9756,
+      "byteLength": 5148,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 14904,
+      "byteLength": 3432,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 0,
+      "byteLength": 36,
+      "target": 34963
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 36,
+      "byteLength": 288,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 324,
+      "byteLength": 288,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 612,
+      "byteLength": 192,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 0,
+      "byteLength": 4608,
+      "target": 34963
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 4608,
+      "byteLength": 5148,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 9756,
+      "byteLength": 5148,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 2,
+      "byteOffset": 14904,
+      "byteLength": 3432,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 0,
+      "byteLength": 192,
+      "target": 34963
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 192,
+      "byteLength": 816,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1008,
+      "byteLength": 816,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 1,
+      "byteOffset": 1824,
+      "byteLength": 544,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 0,
+      "byteLength": 36,
+      "target": 34963
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 36,
+      "byteLength": 288,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 324,
+      "byteLength": 288,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 3,
+      "byteOffset": 612,
+      "byteLength": 192,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 96,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 96,
+      "byteLength": 780,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 876,
+      "byteLength": 780,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1656,
+      "byteLength": 520,
+      "byteStride": 8,
+      "target": 34962
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5121,
+      "count": 96,
+      "max": [
+        64
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 65,
+      "max": [
+        0.5,
+        0.5,
+        1
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 65,
+      "max": [
+        0.8944271802902222,
+        0.8944271802902222,
+        1
+      ],
+      "min": [
+        -0.8944271802902222,
+        -0.8944271802902222,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 65,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 4,
+      "byteOffset": 0,
+      "componentType": 5121,
+      "count": 192,
+      "max": [
+        67
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 5,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 68,
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 68,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 7,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 68,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 8,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 2304,
+      "max": [
+        428
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 9,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 429,
+      "max": [
+        0.699999988079071,
+        0.699999988079071,
+        0.20000000298023224
+      ],
+      "min": [
+        -0.699999988079071,
+        -0.699999988079071,
+        -0.20000000298023224
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 429,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 11,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 429,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 12,
+      "byteOffset": 0,
+      "componentType": 5121,
+      "count": 36,
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 13,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 15,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 16,
+      "byteOffset": 0,
+      "componentType": 5123,
+      "count": 2304,
+      "max": [
+        428
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 17,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 429,
+      "max": [
+        0.699999988079071,
+        0.699999988079071,
+        0.20000000298023224
+      ],
+      "min": [
+        -0.699999988079071,
+        -0.699999988079071,
+        -0.20000000298023224
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 18,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 429,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 19,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 429,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 20,
+      "byteOffset": 0,
+      "componentType": 5121,
+      "count": 192,
+      "max": [
+        67
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 21,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 68,
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 22,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 68,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 23,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 68,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 24,
+      "byteOffset": 0,
+      "componentType": 5121,
+      "count": 36,
+      "max": [
+        23
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 25,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        -0.5
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 26,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 27,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 24,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 28,
+      "byteOffset": 0,
+      "componentType": 5121,
+      "count": 96,
+      "max": [
+        64
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 29,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 65,
+      "max": [
+        0.5,
+        0.5,
+        1
+      ],
+      "min": [
+        -0.5,
+        -0.5,
+        0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 30,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 65,
+      "max": [
+        0.8944271802902222,
+        0.8944271802902222,
+        1
+      ],
+      "min": [
+        -0.8944271802902222,
+        -0.8944271802902222,
+        -1
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 31,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 65,
+      "max": [
+        1,
+        1
+      ],
+      "min": [
+        0,
+        0
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Cone",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 1,
+            "NORMAL": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "mode": 4,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cylinder",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TEXCOORD_0": 7
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Torus",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 9,
+            "NORMAL": 10,
+            "TEXCOORD_0": 11
+          },
+          "indices": 8,
+          "mode": 4,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Box",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 13,
+            "NORMAL": 14,
+            "TEXCOORD_0": 15
+          },
+          "indices": 12,
+          "mode": 4,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Torus",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 17,
+            "NORMAL": 18,
+            "TEXCOORD_0": 19
+          },
+          "indices": 16,
+          "mode": 4,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cylinder",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 21,
+            "NORMAL": 22,
+            "TEXCOORD_0": 23
+          },
+          "indices": 20,
+          "mode": 4,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Box",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 25,
+            "NORMAL": 26,
+            "TEXCOORD_0": 27
+          },
+          "indices": 24,
+          "mode": 4,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cone",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 29,
+            "NORMAL": 30,
+            "TEXCOORD_0": 31
+          },
+          "indices": 28,
+          "mode": 4,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "uri": "Lava_DIFF.jpg"
+    },
+    {
+      "uri": "Lava_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "Lava_NORM.jpg"
+    },
+    {
+      "uri": "Lava_EMISSIVE.jpg"
+    },
+    {
+      "uri": "Metal_Galvanized_DIFF.jpg"
+    },
+    {
+      "uri": "Metal_Galvanized_METAL.jpg"
+    },
+    {
+      "uri": "Metal_Galvanized_NORM.jpg"
+    },
+    {
+      "uri": "Sand_NORM.jpg"
+    },
+    {
+      "uri": "Metal_Brass_NORM.jpg"
+    },
+    {
+      "uri": "Metal_Galvanized_METAL-1.jpg"
+    },
+    {
+      "uri": "Metal_Brass_ROUGH.jpg"
+    },
+    {
+      "uri": "default_studio_HDRI-1.hdr"
+    },
+    {
+      "uri": "Gold_NORM.jpg"
+    },
+    {
+      "uri": "default_studio_skysphere.jpg"
+    },
+    {
+      "uri": "Snow_Wind_NORM.jpg"
+    },
+    {
+      "uri": "Sand_ROUGH.jpg"
+    },
+    {
+      "uri": "Diamond_DIFF.jpg"
+    },
+    {
+      "uri": "Diamond_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "Diamond_NORM.jpg"
+    },
+    {
+      "uri": "Gold_ROUGH.jpg"
+    },
+    {
+      "uri": "Metal_Steel_DIFF.jpg"
+    },
+    {
+      "uri": "Meat_Normal.jpg"
+    },
+    {
+      "uri": "RockDirt_AO.jpg"
+    },
+    {
+      "uri": "Meat_Diffuse.jpg"
+    },
+    {
+      "uri": "Meat_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "Meat_Normal-1.jpg"
+    },
+    {
+      "uri": "MetalBrushed_NORM.jpg"
+    },
+    {
+      "uri": "MetalChrome_DIFF.jpg"
+    },
+    {
+      "uri": "MetalChrome_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "MetalChrome_NORM.jpg"
+    },
+    {
+      "uri": "Diamond_ROUGH.jpg"
+    },
+    {
+      "uri": "Snow_Wind_DIFF.jpg"
+    },
+    {
+      "uri": "Snow_Wind_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "Snow_Wind_NORM-1.jpg"
+    },
+    {
+      "uri": "MetalBrushed_ROUGH.jpg"
+    },
+    {
+      "uri": "Metal_Brass_DIFF.jpg"
+    },
+    {
+      "uri": "Metal_Brass_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "Metal_Brass_NORM-1.jpg"
+    },
+    {
+      "uri": "RockDirt_DIFF.jpg"
+    },
+    {
+      "uri": "Sand_DIFF.jpg"
+    },
+    {
+      "uri": "Metal_Steel_ROUGH.jpg"
+    },
+    {
+      "uri": "Meat_ROUGH.jpg"
+    },
+    {
+      "uri": "MetalChrome_ROUGH.jpg"
+    },
+    {
+      "uri": "Metal_Galvanized_ROUGH.jpg"
+    },
+    {
+      "uri": "RockDirt_ROUGH.jpg"
+    },
+    {
+      "uri": "SandWater_NORM.jpg"
+    },
+    {
+      "uri": "DiamondRust_DIFF.jpg"
+    },
+    {
+      "uri": "DiamondRust_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "DiamondRust_NORM.jpg"
+    },
+    {
+      "uri": "RockDirt_DIFF-1.jpg"
+    },
+    {
+      "uri": "RockDirt_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "RockDirt_NORM.jpg"
+    },
+    {
+      "uri": "SandWater_DIFF.jpg"
+    },
+    {
+      "uri": "MetalBrushed_DIFF.jpg"
+    },
+    {
+      "uri": "MetalBrushed_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "MetalBrushed_NORM-1.jpg"
+    },
+    {
+      "uri": "Lava_ROUGH.jpg"
+    },
+    {
+      "uri": "SandWater_DIFF-1.jpg"
+    },
+    {
+      "uri": "SandWater_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "SandWater_NORM-1.jpg"
+    },
+    {
+      "uri": "Sand_DIFF-1.jpg"
+    },
+    {
+      "uri": "Sand_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "Sand_NORM-1.jpg"
+    },
+    {
+      "uri": "Snow_Wind_ROUGH.jpg"
+    },
+    {
+      "uri": "Metal_Steel_NORM.jpg"
+    },
+    {
+      "uri": "SandWater_ROUGH.jpg"
+    },
+    {
+      "uri": "Gold_DIFF.jpg"
+    },
+    {
+      "uri": "Gold_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "Gold_NORM-1.jpg"
+    },
+    {
+      "uri": "HDRI_Haven_DefaultStudio.jpg"
+    },
+    {
+      "uri": "Metal_Steel_DIFF-1.jpg"
+    },
+    {
+      "uri": "Metal_Steel_ROUGH_Roughness.jpg"
+    },
+    {
+      "uri": "Metal_Steel_NORM-1.jpg"
+    },
+    {
+      "uri": "DiamondRust_ROUGH.jpg"
+    },
+    {
+      "uri": "SpecularMip_Level0_FaceIdx0.png"
+    },
+    {
+      "uri": "SpecularMip_Level0_FaceIdx1.png"
+    },
+    {
+      "uri": "SpecularMip_Level0_FaceIdx2.png"
+    },
+    {
+      "uri": "SpecularMip_Level0_FaceIdx3.png"
+    },
+    {
+      "uri": "SpecularMip_Level0_FaceIdx4.png"
+    },
+    {
+      "uri": "SpecularMip_Level0_FaceIdx5.png"
+    },
+    {
+      "uri": "SpecularMip_Level1_FaceIdx0.png"
+    },
+    {
+      "uri": "SpecularMip_Level1_FaceIdx1.png"
+    },
+    {
+      "uri": "SpecularMip_Level1_FaceIdx2.png"
+    },
+    {
+      "uri": "SpecularMip_Level1_FaceIdx3.png"
+    },
+    {
+      "uri": "SpecularMip_Level1_FaceIdx4.png"
+    },
+    {
+      "uri": "SpecularMip_Level1_FaceIdx5.png"
+    },
+    {
+      "uri": "SpecularMip_Level2_FaceIdx0.png"
+    },
+    {
+      "uri": "SpecularMip_Level2_FaceIdx1.png"
+    },
+    {
+      "uri": "SpecularMip_Level2_FaceIdx2.png"
+    },
+    {
+      "uri": "SpecularMip_Level2_FaceIdx3.png"
+    },
+    {
+      "uri": "SpecularMip_Level2_FaceIdx4.png"
+    },
+    {
+      "uri": "SpecularMip_Level2_FaceIdx5.png"
+    },
+    {
+      "uri": "SpecularMip_Level3_FaceIdx0.png"
+    },
+    {
+      "uri": "SpecularMip_Level3_FaceIdx1.png"
+    },
+    {
+      "uri": "SpecularMip_Level3_FaceIdx2.png"
+    },
+    {
+      "uri": "SpecularMip_Level3_FaceIdx3.png"
+    },
+    {
+      "uri": "SpecularMip_Level3_FaceIdx4.png"
+    },
+    {
+      "uri": "SpecularMip_Level3_FaceIdx5.png"
+    },
+    {
+      "uri": "SpecularMip_Level4_FaceIdx0.png"
+    },
+    {
+      "uri": "SpecularMip_Level4_FaceIdx1.png"
+    },
+    {
+      "uri": "SpecularMip_Level4_FaceIdx2.png"
+    },
+    {
+      "uri": "SpecularMip_Level4_FaceIdx3.png"
+    },
+    {
+      "uri": "SpecularMip_Level4_FaceIdx4.png"
+    },
+    {
+      "uri": "SpecularMip_Level4_FaceIdx5.png"
+    }
+  ],
+  "samplers": [
+    {
+      "name": "Lava_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Lava_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Lava_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Lava_EMISSIVE.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Galvanized_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Galvanized_METAL.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Galvanized_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Sand_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Brass_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Galvanized_METAL.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Brass_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "default_studio_HDRI.hdr",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Gold_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "default_studio_skysphere.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Snow_Wind_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Sand_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Diamond_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Diamond_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Diamond_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Gold_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Steel_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Meat_Normal.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "RockDirt_AO.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Meat_Diffuse.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Meat_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Meat_Normal.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalBrushed_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalChrome_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalChrome_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalChrome_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Diamond_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Snow_Wind_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Snow_Wind_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Snow_Wind_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalBrushed_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Brass_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Brass_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Brass_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "RockDirt_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Sand_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Steel_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Meat_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalChrome_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Galvanized_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "RockDirt_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "SandWater_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "DiamondRust_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "DiamondRust_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "DiamondRust_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "RockDirt_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "RockDirt_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "RockDirt_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "SandWater_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalBrushed_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalBrushed_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "MetalBrushed_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Lava_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "SandWater_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "SandWater_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "SandWater_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Sand_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Sand_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Sand_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Snow_Wind_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Steel_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "SandWater_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Gold_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Gold_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Gold_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "HDRI_Haven_DefaultStudio.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Steel_DIFF.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Steel_ROUGH_Roughness.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "Metal_Steel_NORM.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    },
+    {
+      "name": "DiamondRust_ROUGH.jpg",
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "textures": [
+    {
+      "name": "Lava_DIFF.jpg",
+      "source": 0,
+      "sampler": 0
+    },
+    {
+      "name": "Lava_ROUGH_Roughness.jpg",
+      "source": 1,
+      "sampler": 1
+    },
+    {
+      "name": "Lava_NORM.jpg",
+      "source": 2,
+      "sampler": 2
+    },
+    {
+      "name": "Lava_EMISSIVE.jpg",
+      "source": 3,
+      "sampler": 3
+    },
+    {
+      "name": "Metal_Galvanized_DIFF.jpg",
+      "source": 4,
+      "sampler": 4
+    },
+    {
+      "name": "Metal_Galvanized_METAL.jpg",
+      "source": 5,
+      "sampler": 5
+    },
+    {
+      "name": "Metal_Galvanized_NORM.jpg",
+      "source": 6,
+      "sampler": 6
+    },
+    {
+      "name": "Sand_NORM.jpg",
+      "source": 7,
+      "sampler": 7
+    },
+    {
+      "name": "Metal_Brass_NORM.jpg",
+      "source": 8,
+      "sampler": 8
+    },
+    {
+      "name": "Metal_Galvanized_METAL.jpg",
+      "source": 9,
+      "sampler": 9
+    },
+    {
+      "name": "Metal_Brass_ROUGH.jpg",
+      "source": 10,
+      "sampler": 10
+    },
+    {
+      "name": "default_studio_HDRI.hdr",
+      "source": 11,
+      "sampler": 11
+    },
+    {
+      "name": "Gold_NORM.jpg",
+      "source": 12,
+      "sampler": 12
+    },
+    {
+      "name": "default_studio_skysphere.jpg",
+      "source": 13,
+      "sampler": 13
+    },
+    {
+      "name": "Snow_Wind_NORM.jpg",
+      "source": 14,
+      "sampler": 14
+    },
+    {
+      "name": "Sand_ROUGH.jpg",
+      "source": 15,
+      "sampler": 15
+    },
+    {
+      "name": "Diamond_DIFF.jpg",
+      "source": 16,
+      "sampler": 16
+    },
+    {
+      "name": "Diamond_ROUGH_Roughness.jpg",
+      "source": 17,
+      "sampler": 17
+    },
+    {
+      "name": "Diamond_NORM.jpg",
+      "source": 18,
+      "sampler": 18
+    },
+    {
+      "name": "Gold_ROUGH.jpg",
+      "source": 19,
+      "sampler": 19
+    },
+    {
+      "name": "Metal_Steel_DIFF.jpg",
+      "source": 20,
+      "sampler": 20
+    },
+    {
+      "name": "Meat_Normal.jpg",
+      "source": 21,
+      "sampler": 21
+    },
+    {
+      "name": "RockDirt_AO.jpg",
+      "source": 22,
+      "sampler": 22
+    },
+    {
+      "name": "Meat_Diffuse.jpg",
+      "source": 23,
+      "sampler": 23
+    },
+    {
+      "name": "Meat_ROUGH_Roughness.jpg",
+      "source": 24,
+      "sampler": 24
+    },
+    {
+      "name": "Meat_Normal.jpg",
+      "source": 25,
+      "sampler": 25
+    },
+    {
+      "name": "MetalBrushed_NORM.jpg",
+      "source": 26,
+      "sampler": 26
+    },
+    {
+      "name": "MetalChrome_DIFF.jpg",
+      "source": 27,
+      "sampler": 27
+    },
+    {
+      "name": "MetalChrome_ROUGH_Roughness.jpg",
+      "source": 28,
+      "sampler": 28
+    },
+    {
+      "name": "MetalChrome_NORM.jpg",
+      "source": 29,
+      "sampler": 29
+    },
+    {
+      "name": "Diamond_ROUGH.jpg",
+      "source": 30,
+      "sampler": 30
+    },
+    {
+      "name": "Snow_Wind_DIFF.jpg",
+      "source": 31,
+      "sampler": 31
+    },
+    {
+      "name": "Snow_Wind_ROUGH_Roughness.jpg",
+      "source": 32,
+      "sampler": 32
+    },
+    {
+      "name": "Snow_Wind_NORM.jpg",
+      "source": 33,
+      "sampler": 33
+    },
+    {
+      "name": "MetalBrushed_ROUGH.jpg",
+      "source": 34,
+      "sampler": 34
+    },
+    {
+      "name": "Metal_Brass_DIFF.jpg",
+      "source": 35,
+      "sampler": 35
+    },
+    {
+      "name": "Metal_Brass_ROUGH_Roughness.jpg",
+      "source": 36,
+      "sampler": 36
+    },
+    {
+      "name": "Metal_Brass_NORM.jpg",
+      "source": 37,
+      "sampler": 37
+    },
+    {
+      "name": "RockDirt_DIFF.jpg",
+      "source": 38,
+      "sampler": 38
+    },
+    {
+      "name": "Sand_DIFF.jpg",
+      "source": 39,
+      "sampler": 39
+    },
+    {
+      "name": "Metal_Steel_ROUGH.jpg",
+      "source": 40,
+      "sampler": 40
+    },
+    {
+      "name": "Meat_ROUGH.jpg",
+      "source": 41,
+      "sampler": 41
+    },
+    {
+      "name": "MetalChrome_ROUGH.jpg",
+      "source": 42,
+      "sampler": 42
+    },
+    {
+      "name": "Metal_Galvanized_ROUGH.jpg",
+      "source": 43,
+      "sampler": 43
+    },
+    {
+      "name": "RockDirt_ROUGH.jpg",
+      "source": 44,
+      "sampler": 44
+    },
+    {
+      "name": "SandWater_NORM.jpg",
+      "source": 45,
+      "sampler": 45
+    },
+    {
+      "name": "DiamondRust_DIFF.jpg",
+      "source": 46,
+      "sampler": 46
+    },
+    {
+      "name": "DiamondRust_ROUGH_Roughness.jpg",
+      "source": 47,
+      "sampler": 47
+    },
+    {
+      "name": "DiamondRust_NORM.jpg",
+      "source": 48,
+      "sampler": 48
+    },
+    {
+      "name": "RockDirt_DIFF.jpg",
+      "source": 49,
+      "sampler": 49
+    },
+    {
+      "name": "RockDirt_ROUGH_Roughness.jpg",
+      "source": 50,
+      "sampler": 50
+    },
+    {
+      "name": "RockDirt_NORM.jpg",
+      "source": 51,
+      "sampler": 51
+    },
+    {
+      "name": "SandWater_DIFF.jpg",
+      "source": 52,
+      "sampler": 52
+    },
+    {
+      "name": "MetalBrushed_DIFF.jpg",
+      "source": 53,
+      "sampler": 53
+    },
+    {
+      "name": "MetalBrushed_ROUGH_Roughness.jpg",
+      "source": 54,
+      "sampler": 54
+    },
+    {
+      "name": "MetalBrushed_NORM.jpg",
+      "source": 55,
+      "sampler": 55
+    },
+    {
+      "name": "Lava_ROUGH.jpg",
+      "source": 56,
+      "sampler": 56
+    },
+    {
+      "name": "SandWater_DIFF.jpg",
+      "source": 57,
+      "sampler": 57
+    },
+    {
+      "name": "SandWater_ROUGH_Roughness.jpg",
+      "source": 58,
+      "sampler": 58
+    },
+    {
+      "name": "SandWater_NORM.jpg",
+      "source": 59,
+      "sampler": 59
+    },
+    {
+      "name": "Sand_DIFF.jpg",
+      "source": 60,
+      "sampler": 60
+    },
+    {
+      "name": "Sand_ROUGH_Roughness.jpg",
+      "source": 61,
+      "sampler": 61
+    },
+    {
+      "name": "Sand_NORM.jpg",
+      "source": 62,
+      "sampler": 62
+    },
+    {
+      "name": "Snow_Wind_ROUGH.jpg",
+      "source": 63,
+      "sampler": 63
+    },
+    {
+      "name": "Metal_Steel_NORM.jpg",
+      "source": 64,
+      "sampler": 64
+    },
+    {
+      "name": "SandWater_ROUGH.jpg",
+      "source": 65,
+      "sampler": 65
+    },
+    {
+      "name": "Gold_DIFF.jpg",
+      "source": 66,
+      "sampler": 66
+    },
+    {
+      "name": "Gold_ROUGH_Roughness.jpg",
+      "source": 67,
+      "sampler": 67
+    },
+    {
+      "name": "Gold_NORM.jpg",
+      "source": 68,
+      "sampler": 68
+    },
+    {
+      "name": "HDRI_Haven_DefaultStudio.jpg",
+      "source": 69,
+      "sampler": 69
+    },
+    {
+      "name": "Metal_Steel_DIFF.jpg",
+      "source": 70,
+      "sampler": 70
+    },
+    {
+      "name": "Metal_Steel_ROUGH_Roughness.jpg",
+      "source": 71,
+      "sampler": 71
+    },
+    {
+      "name": "Metal_Steel_NORM.jpg",
+      "source": 72,
+      "sampler": 72
+    },
+    {
+      "name": "DiamondRust_ROUGH.jpg",
+      "source": 73,
+      "sampler": 73
+    }
+  ],
+  "materials": [
+    {
+      "name": "Organic_Lava_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6729166666666666,
+          0.6729166666666666,
+          0.6729166666666666,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "emissiveTexture": {
+        "index": 3
+      }
+    },
+    {
+      "name": "Metal_Galvanized_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6195833333333334,
+          0.6195833333333334,
+          0.6195833333333334,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.73,
+        "baseColorTexture": {
+          "index": 4
+        },
+        "metallicRoughnessTexture": {
+          "index": 5
+        }
+      },
+      "normalTexture": {
+        "index": 6
+      }
+    },
+    {
+      "name": "Default Material 3",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "roughnessFactor": 0.936
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Default Material 8",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "roughnessFactor": 0.936
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Default Material 7",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "roughnessFactor": 0.936
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Default Material",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "roughnessFactor": 0.936
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Metal_Diamond_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6729166666666666,
+          0.6729166666666666,
+          0.6729166666666666,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 16,
+          "extensions": {
+            "KHR_texture_transform": {
+              "scale": [
+                2,
+                2
+              ]
+            }
+          }
+        },
+        "metallicRoughnessTexture": {
+          "index": 17
+        }
+      },
+      "normalTexture": {
+        "index": 18
+      }
+    },
+    {
+      "name": "Default Material 2",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "roughnessFactor": 0.936
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Organic_Meat_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.82625,
+          0.82625,
+          0.82625,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 23
+        },
+        "metallicRoughnessTexture": {
+          "index": 24
+        }
+      },
+      "normalTexture": {
+        "index": 25
+      }
+    },
+    {
+      "name": "Metal_Chrome_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.82625,
+          0.82625,
+          0.82625,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 27
+        },
+        "metallicRoughnessTexture": {
+          "index": 28
+        }
+      },
+      "normalTexture": {
+        "index": 29
+      }
+    },
+    {
+      "name": "Organic_Snow_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.82625,
+          0.82625,
+          0.82625,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 31
+        },
+        "metallicRoughnessTexture": {
+          "index": 32
+        }
+      },
+      "normalTexture": {
+        "index": 33
+      }
+    },
+    {
+      "name": "Metal_Brass_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.82625,
+          0.82625,
+          0.82625,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 35
+        },
+        "metallicRoughnessTexture": {
+          "index": 36
+        }
+      },
+      "normalTexture": {
+        "index": 37
+      }
+    },
+    {
+      "name": "Default Material 6",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "roughnessFactor": 0.936
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Metal_Diamond_Rust_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.82625,
+          0.82625,
+          0.82625,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.7,
+        "baseColorTexture": {
+          "index": 46,
+          "extensions": {
+            "KHR_texture_transform": {
+              "scale": [
+                2,
+                2
+              ]
+            }
+          }
+        },
+        "metallicRoughnessTexture": {
+          "index": 47
+        }
+      },
+      "normalTexture": {
+        "index": 48
+      }
+    },
+    {
+      "name": "Organic_RockDirt_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.82625,
+          0.82625,
+          0.82625,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 49
+        },
+        "metallicRoughnessTexture": {
+          "index": 50
+        }
+      },
+      "normalTexture": {
+        "index": 51
+      }
+    },
+    {
+      "name": "Metal_Brushed_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.36624999999999996,
+          0.36624999999999996,
+          0.36624999999999996,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.59,
+        "baseColorTexture": {
+          "index": 53
+        },
+        "metallicRoughnessTexture": {
+          "index": 54
+        }
+      },
+      "normalTexture": {
+        "index": 55
+      }
+    },
+    {
+      "name": "Organic_SandWater_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.36624999999999996,
+          0.36624999999999996,
+          0.36624999999999996,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.59,
+        "baseColorTexture": {
+          "index": 57
+        },
+        "metallicRoughnessTexture": {
+          "index": 58
+        }
+      },
+      "normalTexture": {
+        "index": 59
+      }
+    },
+    {
+      "name": "Default Material 5",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "roughnessFactor": 0.936
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Organic_Sand_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7395833333333333,
+          0.6926197916666667,
+          0.5916666666666667,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 60
+        },
+        "metallicRoughnessTexture": {
+          "index": 61
+        }
+      },
+      "normalTexture": {
+        "index": 62
+      }
+    },
+    {
+      "name": "Default Material 4",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8,
+          0.8,
+          0.8,
+          1
+        ],
+        "roughnessFactor": 0.936
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Metal_Gold_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.82625,
+          0.82625,
+          0.82625,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 0.7,
+        "baseColorTexture": {
+          "index": 66
+        },
+        "metallicRoughnessTexture": {
+          "index": 67
+        }
+      },
+      "normalTexture": {
+        "index": 68
+      }
+    },
+    {
+      "name": "Metal_Steel_MAT",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.82625,
+          0.82625,
+          0.82625,
+          1
+        ],
+        "metallicFactor": 1,
+        "roughnessFactor": 1,
+        "baseColorTexture": {
+          "index": 70
+        },
+        "metallicRoughnessTexture": {
+          "index": 71
+        }
+      },
+      "normalTexture": {
+        "index": 72
+      }
+    }
+  ],
+  "scenes": [
+    {
+      "name": "RedFlagBase",
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "extensions": {
+        "EXT_lights_image_based": {
+          "light": 0
+        }
+      }
+    }
+  ],
+  "scene": 0,
+  "extensionsUsed": [
+    "KHR_texture_transform",
+    "EXT_lights_image_based"
+  ],
+  "extensions": {
+    "EXT_lights_image_based": {
+      "lights": [
+        {
+          "name": "Default Image Based Lighting",
+          "intensity": 0.555,
+          "rotation": [
+            0,
+            0.9945218953682733,
+            0,
+            -0.10452846326765355
+          ],
+          "specularImageSize": 256,
+          "specularImages": [
+            [
+              74,
+              75,
+              76,
+              77,
+              78,
+              79
+            ],
+            [
+              80,
+              81,
+              82,
+              83,
+              84,
+              85
+            ],
+            [
+              86,
+              87,
+              88,
+              89,
+              90,
+              91
+            ],
+            [
+              92,
+              93,
+              94,
+              95,
+              96,
+              97
+            ],
+            [
+              98,
+              99,
+              100,
+              101,
+              102,
+              103
+            ]
+          ],
+          "irradianceCoefficients": [
+            [
+              6.77155876159668,
+              7.799630641937256,
+              8.826342582702637
+            ],
+            [
+              -5.274189472198486,
+              -6.100281238555908,
+              -7.0429511070251465
+            ],
+            [
+              3.7128961086273193,
+              4.358016014099121,
+              5.257607460021973
+            ],
+            [
+              -0.19413520395755768,
+              -0.18955698609352112,
+              -0.08950433135032654
+            ],
+            [
+              -1.499084711074829,
+              -1.7406688928604126,
+              -2.010977268218994
+            ],
+            [
+              -8.788551330566406,
+              -10.17326831817627,
+              -11.738512992858887
+            ],
+            [
+              5.862612247467041,
+              6.707177639007568,
+              7.485212802886963
+            ],
+            [
+              4.256962776184082,
+              4.867032527923584,
+              5.3697123527526855
+            ],
+            [
+              -3.5088930130004883,
+              -4.0868401527404785,
+              -4.774990558624268
+            ]
+          ]
+        }
+      ]
+    }
+  }
+}
